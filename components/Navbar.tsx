@@ -9,9 +9,10 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Works', href: '#works' },
+    { name: 'Home', href: '/#home' },
+    { name: 'About', href: '/#about' },
+    { name: 'Designer Portfolio', href: '/designer' },
+    { name: 'Photographer Portfolio', href: '/photographer' },
   ]
 
 export default function Navbar() {
@@ -21,10 +22,10 @@ export default function Navbar() {
     <header className="fixed backdrop-blur-xl bg-slate-800/30 inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/#home" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Name</span>
                 <h2 className='font-semibold text-xl'>Shirjeel</h2>
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -38,15 +39,15 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className="text-sm font-semibold leading-6">
+              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className="text-sm font-semibold leading-6">
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#contact" className="text-smg hover:text-indigo-300 font-semibold leading-6 ">
+            <Link href="#contact" className="text-smg hover:text-indigo-300 font-semibold leading-6 ">
               Contact me <span aria-hidden="true" className='pl-1'>&rarr;</span>
-            </a>
+            </Link>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

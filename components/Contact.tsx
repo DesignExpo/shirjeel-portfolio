@@ -7,7 +7,7 @@ import Fiverr from '@/public/fiverr.png'
 export default function Contact() {
   return (
     <section id='contact' className="flex flex-col justify-around mt-10 md:mt-0 md:flex-row md:items-center pl-7">
-        <div className='pr-5'>
+        <div className='pr-5 w-full'>
             <h2 className='text-3xl font-semibold'>Get in touch</h2>
             <p className='mt-2 text-gray-300'>Want to work together or just want to say hi? Feel free to reach out to me.</p>
         </div>

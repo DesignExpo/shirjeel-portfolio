@@ -1,6 +1,5 @@
 "use client"
 
-
 export default function Hero() {
 
   return (
@@ -18,18 +17,18 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-3xl py-32 sm:py-40 lg:pt-44 lg:pb-32">
+        <div className="mx-auto max-w-4xl py-32 sm:py-40 lg:pt-44 lg:pb-32">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-wide leading-1 bg-gradient-to-tr from-indigo-700 to-indigo-100 text-transparent bg-clip-text sm:text-7xl md:text-8xl">
-              Hi, I&apos;m Shirjeel Ahmad Azam
+            <h1 className="text-4xl font-bold tracking-wide leading-1 bg-gradient-to-tr text-white text-transparent bg-clip-text sm:text-7xl md:text-8xl">
+              Welcome to Shirjeel Ahmads Portfolio
             </h1>
             <p className="mt-6 text-lg text-gray-400 leading-8 ">
-              I&apos;m a designer and Photographer from Pakistan.
+              I&apos;m a Designer and Photographer from Pakistan.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 md:gap-x-12">
               <a
                 href="#contact"
-                className="rounded-full bg-indigo-600 px-7 py-2.5 duration-100 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-full bg-indigo-600 px-9 py-3 duration-100 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Contact Me
               </a>

@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6">
+              <a key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className="text-sm font-semibold leading-6">
                 {item.name}
               </a>
             ))}
@@ -71,6 +71,7 @@ export default function Navbar() {
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
+                    onClick={() => setMobileMenuOpen(false)}
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-slate-800"
@@ -81,6 +82,7 @@ export default function Navbar() {
                 </div>
                 <div className="py-6">
                   <a
+                    onClick={() => setMobileMenuOpen(false)}
                     href="#contact"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-indigo-600"
                   >

@@ -21,10 +21,10 @@ export default function Hero() {
         <div className="mx-auto max-w-3xl py-32 sm:py-40 lg:pt-44 lg:pb-32">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-wide leading-1 bg-gradient-to-tr from-indigo-700 to-indigo-100 text-transparent bg-clip-text sm:text-7xl md:text-8xl">
-              Hi, I'm Shirjeel Ahmad Azam
+              Hi, I&apos;m Shirjeel Ahmad Azam
             </h1>
             <p className="mt-6 text-lg text-gray-400 leading-8 ">
-              I'm a designer and Photographer from Pakistan.
+              I&apos;m a designer and Photographer from Pakistan.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 md:gap-x-12">
               <a

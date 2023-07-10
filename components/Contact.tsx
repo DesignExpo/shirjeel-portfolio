@@ -12,9 +12,9 @@ export default function Contact() {
             <p className='mt-2 text-gray-300'>Want to work together or just want to say hi? Feel free to reach out to me.</p>
         </div>
         <div className='flex items-center w-full justify-around h-32 md:h-64'>
-            <a href="https://www.instagram.com/shirjeelshots/"><Image src={Instagram} alt='Instagram' height={60} width={60} /></a>
-            <a href="https://www.facebook.com/groups/366135477157269/user/100019297968723/"><Image src={Facebook} alt='Facebook' height={60} width={60} /></a>
-            <a href="https://www.fiverr.com/"><Image src={Fiverr} alt='Fiverr' height={60} width={60} /></a>
+            <a target='_blank' href="https://www.instagram.com/shirjeelshots/"><Image src={Instagram} alt='Instagram' height={60} width={60} /></a>
+            <a target='_blank' href="https://www.facebook.com/Shirjeeelahmad?mibextid=ZbWKwL"><Image src={Facebook} alt='Facebook' height={60} width={60} /></a>
+            <a target='_blank' href="https://www.fiverr.com/thedesignexpo?"><Image src={Fiverr} alt='Fiverr' height={60} width={60} /></a>
         </div>
     </section>
   )
